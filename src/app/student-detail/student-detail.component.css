@@ -1,0 +1,39 @@
+/* HeroDetailComponent's private CSS styles */
+label {
+    color: #435960;
+    font-weight: bold;
+}
+input {
+    font-size: 1em;
+    padding: .5rem;
+}
+button.back {
+    margin-top: 20px;
+    background-color: #eee;
+    border-radius: 4px;
+    margin-left: 75px;
+ }
+
+ button.save {
+    margin-top: 20px;
+    background-color: #eee;
+    border-radius: 4px;
+    margin-left: 20px;
+ }
+
+button:hover {
+    background-color: #cfd8dc;
+}
+button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+}
+
+.id{
+    margin-bottom: 20px;
+}
+
+.grade{
+    margin: auto;
+}

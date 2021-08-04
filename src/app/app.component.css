@@ -1,0 +1,57 @@
+/* AppComponent's private CSS styles */
+h1 {
+    margin-bottom: 20px;
+  }
+
+img{
+  float: left;
+  width: 50px;
+  margin-top: 5px;
+}
+
+.title{
+  margin-left: 40%;
+}
+
+  ul {
+    margin-top: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.603);
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  
+  li {
+    float: left;
+  }
+  
+  li a:hover {
+    background-color: #42545C;
+  }
+
+  nav a {
+    display: block;
+  color: rgba(255, 255, 255, 0.74);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: white;
+    background-color: #42545C;
+  }
+  
+  nav a.active {
+    background-color: black;
+  }

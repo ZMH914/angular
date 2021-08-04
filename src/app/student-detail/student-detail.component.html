@@ -1,0 +1,12 @@
+<div *ngIf="student">
+    <h2>{{student.name }} </h2>
+    <div class = "id">
+      <span>学号: </span>{{student.id}}
+    </div>
+    <div class = "grade">
+      <label >成绩: </label>
+      <input [(ngModel)]="student.grade" placeholder="成绩">
+    </div>
+    <button class = "back" (click)="goBack()">返回</button>
+    <button class = "save" (click)="save()">保存</button>
+  </div>

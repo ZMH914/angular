@@ -1,0 +1,30 @@
+
+<div class="input">
+  <label for="new-hero">学生姓名: </label>
+  <input id="new-hero" #studentName />
+    <!-- (click) passes input value to add() and then clears the input -->
+  <button class="add-button" (click)="add(studentName.value);studentName.value=''">
+    录入
+  </button>
+    
+</div>
+
+<table>
+    <tr>
+      <th>学号</th>
+      <th>姓名</th>
+      <th>删除</th>
+    </tr>
+    <tr *ngFor="let student of students">
+        <td>
+          <a routerLink="/detail/{{student.id}}">{{student.id}}</a>
+        </td>
+        <td>
+          <a routerLink="/detail/{{student.id}}">{{student.name}}</a>
+        </td>
+        <td>
+            <button (click)="delete(student)"> x </button>
+        </td>
+    </tr>
+</table>
+
